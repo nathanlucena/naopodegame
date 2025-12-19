@@ -1439,7 +1439,7 @@
       "word": "TAPIOCA",
       "cannot": ["goma", "recheio", "regional", "massa", "nordeste"],
       "dificult": "médio",
-      "
+      "category": "comidas/bebidas"
    }
   ]
 }
