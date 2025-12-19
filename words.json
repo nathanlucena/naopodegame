@@ -1,0 +1,234 @@
+{
+  "configuracoes": {
+    "categorias": [
+    "objetos",
+    "comidas/bebidas",
+    "lugares",
+    "cotidiano",
+    "sentimentos",
+    "tecnologia",
+    "natureza",
+    "entretenimento",
+    "personalidades",
+    "comportamentos",
+    "verbos",
+    "filosofia",
+    "ciência",
+    "política",
+    "música",
+    "arte",
+    "psicologia",
+    "religião",
+    "história",
+    "literatura",
+    "linguagem",
+    "biologia",
+    "educação",
+    "corpo",
+    "família",
+    "transporte",
+    "esporte",
+    "escola",
+    "brinquedos",
+    "festas",
+    "datas comemorativas",
+    "profissões",
+    "casa",
+    "relacionamentos",
+    "finanças",
+    "saúde",
+    "meio ambiente",
+    "cultura",
+    "moda",
+    "beleza"
+  ],
+    "dificuldades": ["fácil", "médio", "difícil"],
+    "distribuicao_dificuldades": {
+      "fácil": 120,
+      "médio": 100,
+      "difícil": 80
+    }
+  },
+  "palavras": [
+  {
+    "word": "PRAIA",
+    "cannot": ["areia", "mar", "sol", "toalha", "onda"],
+    "dificult": "fácil",
+    "categoria": "lugares"
+  },
+  {
+    "word": "GELADEIRA",
+    "cannot": ["gelar", "comida", "fria", "porta", "eletrodoméstico"],
+    "dificult": "fácil",
+    "categoria": "objetos"
+  },
+  {
+    "word": "PIZZA",
+    "cannot": ["massa", "queijo", "forno", "fatia", "italiana"],
+    "dificult": "fácil",
+    "categoria": "comidas/bebidas"
+  },
+  {
+    "word": "SMARTPHONE",
+    "cannot": ["tela", "aplicativo", "ligar", "toque", "celular"],
+    "dificult": "médio",
+    "categoria": "tecnologia"
+  },
+  {
+    "word": "TRÂNSITO",
+    "cannot": ["carro", "engarrafamento", "rua", "sinal", "congestionamento"],
+    "dificult": "médio",
+    "categoria": "cotidiano"
+  },
+  {
+    "word": "INVEJA",
+    "cannot": ["ciúme", "desejar", "outro", "sentimento", "possessão"],
+    "dificult": "difícil",
+    "categoria": "sentimentos"
+  },
+  {
+    "word": "CACHOEIRA",
+    "cannot": ["queda d'água", "rio", "natureza", "banho", "catarata"],
+    "dificult": "fácil",
+    "categoria": "natureza"
+  },
+  {
+    "word": "BEYONCÉ",
+    "cannot": ["cantora", "Single Ladies", "EUA", "Rainha", "destacada"],
+    "dificult": "médio",
+    "categoria": "entretenimento"
+  },
+  {
+    "word": "SORTE",
+    "cannot": ["azar", "acaso", "destino", "probabilidade", "fortuna"],
+    "dificult": "difícil",
+    "categoria": "conceitos"
+  },
+  {
+    "word": "DANÇAR",
+    "cannot": ["música", "ritmo", "passos", "balançar", "coreografia"],
+    "dificult": "médio",
+    "categoria": "verbos"
+  },
+  {
+    "word": "AEROPORTO",
+    "cannot": ["avião", "viagem", "embarque", "terminal", "bagagem"],
+    "dificult": "fácil",
+    "categoria": "lugares"
+  },
+  {
+    "word": "GUARDA-CHUVA",
+    "cannot": ["chuva", "abrir", "proteger", "cabo", "enxurrada"],
+    "dificult": "fácil",
+    "categoria": "objetos"
+  },
+  {
+    "word": "CAFÉ",
+    "cannot": ["bebida", "quente", "cafeína", "xícara", "acordar"],
+    "dificult": "fácil",
+    "categoria": "comidas/bebidas"
+  },
+  {
+    "word": "WI-FI",
+    "cannot": ["internet", "conexão", "rede", "senha", "inalática"],
+    "dificult": "médio",
+    "categoria": "tecnologia"
+  },
+  {
+    "word": "FILA",
+    "cannot": ["espera", "gente", "ordem", "lentidão", "aguardar"],
+    "dificult": "médio",
+    "categoria": "cotidiano"
+  },
+  {
+    "word": "SAUDADE",
+    "cannot": ["lembrança", "falta", "passado", "nostalgia", "recordação"],
+    "dificult": "difícil",
+    "categoria": "sentimentos"
+  },
+  {
+    "word": "VULCÃO",
+    "cannot": ["erupção", "lava", "montanha", "cinzas", "atividade"],
+    "dificult": "fácil",
+    "categoria": "natureza"
+  },
+  {
+    "word": "MICHAEL JACKSON",
+    "cannot": ["cantor", "Thriller", "moonwalk", "rei do pop", "EUA"],
+    "dificult": "médio",
+    "categoria": "entretenimento"
+  },
+  {
+    "word": "TEMPO",
+    "cannot": ["relógio", "horas", "duração", "cronológico", "passar"],
+    "dificult": "difícil",
+    "categoria": "conceitos"
+  },
+  {
+    "word": "ESCREVER",
+    "cannot": ["papel", "caneta", "texto", "palavras", "redigir"],
+    "dificult": "médio",
+    "categoria": "verbos"
+  },
+  {
+    "word": "MERCADO",
+    "cannot": ["compras", "produtos", "carrinho", "prateleiras", "supermercado"],
+    "dificult": "fácil",
+    "categoria": "lugares"
+  },
+  {
+    "word": "ÓCULOS",
+    "cannot": ["lentes", "ver", "grau", "armação", "enxergar"],
+    "dificult": "fácil",
+    "categoria": "objetos"
+  },
+  {
+    "word": "CHOCOLATE",
+    "cannot": ["doce", "cacau", "barra", "derreter", "sobremesa"],
+    "dificult": "fácil",
+    "categoria": "comidas/bebidas"
+  },
+  {
+    "word": "NOTEBOOK",
+    "cannot": ["computador", "tela", "portátil", "bateria", "teclado"],
+    "dificult": "médio",
+    "categoria": "tecnologia"
+  },
+  {
+    "word": "ALARME",
+    "cannot": ["despertador", "horário", "acordar", "tocar", "manhã"],
+    "dificult": "médio",
+    "categoria": "cotidiano"
+  },
+  {
+    "word": "ALÍVIO",
+    "cannot": ["aliviado", "tensão", "preocupação", "tranquilidade", "desopressão"],
+    "dificult": "difícil",
+    "categoria": "sentimentos"
+  },
+  {
+    "word": "DESERTO",
+    "cannot": ["areia", "seco", "calor", "cacto", "oásis"],
+    "dificult": "fácil",
+    "categoria": "natureza"
+  },
+  {
+    "word": "ANITTA",
+    "cannot": ["cantora", "brasileira", "funk", "Vai Malandra", "show"],
+    "dificult": "médio",
+    "categoria": "entretenimento"
+  },
+  {
+    "word": "LIBERDADE",
+    "cannot": ["livre", "escolha", "prisão", "autonomia", "independência"],
+    "dificult": "difícil",
+    "categoria": "conceitos"
+  },
+  {
+    "word": "CONSTRUIR",
+    "cannot": ["edifício", "obra", "planejar", "erguer", "fundação"],
+    "dificult": "médio",
+    "categoria": "verbos"
+  }
+  ]
+}
