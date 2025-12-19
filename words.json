@@ -1,234 +1,778 @@
 {
   "configuracoes": {
-    "categorias": [
-    "objetos",
-    "comidas/bebidas",
-    "lugares",
-    "cotidiano",
-    "sentimentos",
-    "tecnologia",
-    "natureza",
-    "entretenimento",
-    "personalidades",
-    "comportamentos",
-    "verbos",
-    "filosofia",
-    "ciência",
-    "política",
-    "música",
-    "arte",
-    "psicologia",
-    "religião",
-    "história",
-    "literatura",
-    "linguagem",
-    "biologia",
-    "educação",
-    "corpo",
-    "família",
-    "transporte",
-    "esporte",
-    "escola",
-    "brinquedos",
-    "festas",
-    "datas comemorativas",
-    "profissões",
-    "casa",
-    "relacionamentos",
-    "finanças",
-    "saúde",
-    "meio ambiente",
-    "cultura",
-    "moda",
-    "beleza"
-  ],
+    "categorias": ["objetos", "comidas/bebidas", "lugares", "animais", "profissões", "ações", "entretenimento", "esportes", "natureza", "tecnologia"],
     "dificuldades": ["fácil", "médio", "difícil"],
     "distribuicao_dificuldades": {
-      "fácil": 120,
-      "médio": 100,
-      "difícil": 80
+      "fácil": 140,
+      "médio": 120,
+      "difícil": 90
     }
   },
   "palavras": [
-  {
-    "word": "PRAIA",
-    "cannot": ["areia", "mar", "sol", "toalha", "onda"],
-    "dificult": "fácil",
-    "categoria": "lugares"
-  },
-  {
-    "word": "GELADEIRA",
-    "cannot": ["gelar", "comida", "fria", "porta", "eletrodoméstico"],
-    "dificult": "fácil",
-    "categoria": "objetos"
-  },
-  {
-    "word": "PIZZA",
-    "cannot": ["massa", "queijo", "forno", "fatia", "italiana"],
-    "dificult": "fácil",
-    "categoria": "comidas/bebidas"
-  },
-  {
-    "word": "SMARTPHONE",
-    "cannot": ["tela", "aplicativo", "ligar", "toque", "celular"],
-    "dificult": "médio",
-    "categoria": "tecnologia"
-  },
-  {
-    "word": "TRÂNSITO",
-    "cannot": ["carro", "engarrafamento", "rua", "sinal", "congestionamento"],
-    "dificult": "médio",
-    "categoria": "cotidiano"
-  },
-  {
-    "word": "INVEJA",
-    "cannot": ["ciúme", "desejar", "outro", "sentimento", "possessão"],
-    "dificult": "difícil",
-    "categoria": "sentimentos"
-  },
-  {
-    "word": "CACHOEIRA",
-    "cannot": ["queda d'água", "rio", "natureza", "banho", "catarata"],
-    "dificult": "fácil",
-    "categoria": "natureza"
-  },
-  {
-    "word": "BEYONCÉ",
-    "cannot": ["cantora", "Single Ladies", "EUA", "Rainha", "destacada"],
-    "dificult": "médio",
-    "categoria": "entretenimento"
-  },
-  {
-    "word": "SORTE",
-    "cannot": ["azar", "acaso", "destino", "probabilidade", "fortuna"],
-    "dificult": "difícil",
-    "categoria": "conceitos"
-  },
-  {
-    "word": "DANÇAR",
-    "cannot": ["música", "ritmo", "passos", "balançar", "coreografia"],
-    "dificult": "médio",
-    "categoria": "verbos"
-  },
-  {
-    "word": "AEROPORTO",
-    "cannot": ["avião", "viagem", "embarque", "terminal", "bagagem"],
-    "dificult": "fácil",
-    "categoria": "lugares"
-  },
-  {
-    "word": "GUARDA-CHUVA",
-    "cannot": ["chuva", "abrir", "proteger", "cabo", "enxurrada"],
-    "dificult": "fácil",
-    "categoria": "objetos"
-  },
-  {
-    "word": "CAFÉ",
-    "cannot": ["bebida", "quente", "cafeína", "xícara", "acordar"],
-    "dificult": "fácil",
-    "categoria": "comidas/bebidas"
-  },
-  {
-    "word": "WI-FI",
-    "cannot": ["internet", "conexão", "rede", "senha", "inalática"],
-    "dificult": "médio",
-    "categoria": "tecnologia"
-  },
-  {
-    "word": "FILA",
-    "cannot": ["espera", "gente", "ordem", "lentidão", "aguardar"],
-    "dificult": "médio",
-    "categoria": "cotidiano"
-  },
-  {
-    "word": "SAUDADE",
-    "cannot": ["lembrança", "falta", "passado", "nostalgia", "recordação"],
-    "dificult": "difícil",
-    "categoria": "sentimentos"
-  },
-  {
-    "word": "VULCÃO",
-    "cannot": ["erupção", "lava", "montanha", "cinzas", "atividade"],
-    "dificult": "fácil",
-    "categoria": "natureza"
-  },
-  {
-    "word": "MICHAEL JACKSON",
-    "cannot": ["cantor", "Thriller", "moonwalk", "rei do pop", "EUA"],
-    "dificult": "médio",
-    "categoria": "entretenimento"
-  },
-  {
-    "word": "TEMPO",
-    "cannot": ["relógio", "horas", "duração", "cronológico", "passar"],
-    "dificult": "difícil",
-    "categoria": "conceitos"
-  },
-  {
-    "word": "ESCREVER",
-    "cannot": ["papel", "caneta", "texto", "palavras", "redigir"],
-    "dificult": "médio",
-    "categoria": "verbos"
-  },
-  {
-    "word": "MERCADO",
-    "cannot": ["compras", "produtos", "carrinho", "prateleiras", "supermercado"],
-    "dificult": "fácil",
-    "categoria": "lugares"
-  },
-  {
-    "word": "ÓCULOS",
-    "cannot": ["lentes", "ver", "grau", "armação", "enxergar"],
-    "dificult": "fácil",
-    "categoria": "objetos"
-  },
-  {
-    "word": "CHOCOLATE",
-    "cannot": ["doce", "cacau", "barra", "derreter", "sobremesa"],
-    "dificult": "fácil",
-    "categoria": "comidas/bebidas"
-  },
-  {
-    "word": "NOTEBOOK",
-    "cannot": ["computador", "tela", "portátil", "bateria", "teclado"],
-    "dificult": "médio",
-    "categoria": "tecnologia"
-  },
-  {
-    "word": "ALARME",
-    "cannot": ["despertador", "horário", "acordar", "tocar", "manhã"],
-    "dificult": "médio",
-    "categoria": "cotidiano"
-  },
-  {
-    "word": "ALÍVIO",
-    "cannot": ["aliviado", "tensão", "preocupação", "tranquilidade", "desopressão"],
-    "dificult": "difícil",
-    "categoria": "sentimentos"
-  },
-  {
-    "word": "DESERTO",
-    "cannot": ["areia", "seco", "calor", "cacto", "oásis"],
-    "dificult": "fácil",
-    "categoria": "natureza"
-  },
-  {
-    "word": "ANITTA",
-    "cannot": ["cantora", "brasileira", "funk", "Vai Malandra", "show"],
-    "dificult": "médio",
-    "categoria": "entretenimento"
-  },
-  {
-    "word": "LIBERDADE",
-    "cannot": ["livre", "escolha", "prisão", "autonomia", "independência"],
-    "dificult": "difícil",
-    "categoria": "conceitos"
-  },
-  {
-    "word": "CONSTRUIR",
-    "cannot": ["edifício", "obra", "planejar", "erguer", "fundação"],
-    "dificult": "médio",
-    "categoria": "verbos"
-  }
-  ]
-}
+    {
+      "word": "PRAIA",
+      "cannot": ["areia", "mar", "sol", "toalha", "onda"],
+      "dificult": "fácil",
+      "category": "lugares"
+    },
+    {
+      "word": "PIZZA",
+      "cannot": ["queijo", "massa", "forno", "italiana", "fatia"],
+      "dificult": "fácil",
+      "category": "comidas/bebidas"
+    },
+    {
+      "word": "CACHORRO",
+      "cannot": ["late", "pet", "animal", "ração", "osso"],
+      "dificult": "fácil",
+      "category": "animais"
+    },
+    {
+      "word": "COMPUTADOR",
+      "cannot": ["teclado", "mouse", "tela", "internet", "programa"],
+      "dificult": "médio",
+      "category": "tecnologia"
+    },
+    {
+      "word": "MÉDICO",
+      "cannot": ["hospital", "doença", "remédio", "saúde", "paciente"],
+      "dificult": "médio",
+      "category": "profissões"
+    },
+    {
+      "word": "REFRIGERANTE",
+      "cannot": ["coca", "gás", "gelado", "doce", "lata"],
+      "dificult": "difícil",
+      "category": "comidas/bebidas"
+    },
+    {
+      "word": "AMAZÔNIA",
+      "cannot": ["floresta", "Brasil", "árvores", "rio", "verde"],
+      "dificult": "difícil",
+      "category": "lugares"
+    },
+    {
+      "word": "CAFÉ",
+      "cannot": ["manhã", "preto", "xícara", "cafeína", "quente"],
+      "dificult": "fácil",
+      "category": "comidas/bebidas"
+    },
+    {
+      "word": "ELEFANTE",
+      "cannot": ["tromba", "grande", "cinza", "África", "mamífero"],
+      "dificult": "médio",
+      "category": "animais"
+    },
+    {
+      "word": "PROFESSOR",
+      "cannot": ["ensinar", "escola", "aluno", "aula", "quadro"],
+      "dificult": "fácil",
+      "category": "profissões"
+    },
+    {
+      "word": "NADAR",
+      "cannot": ["água", "piscina", "braços", "pernas", "mergulhar"],
+      "dificult": "fácil",
+      "category": "ações"
+    },
+    {
+      "word": "FUTEBOL",
+      "cannot": ["bola", "gol", "time", "campo", "chute"],
+      "dificult": "fácil",
+      "category": "esportes"
+    },
+    {
+      "word": "TELEVISÃO",
+      "cannot": ["canal", "programa", "controle", "assistir", "tela"],
+      "dificult": "fácil",
+      "category": "objetos"
+    },
+    {
+      "word": "GATO",
+      "cannot": ["mia", "felino", "pet", "bigode", "arranhar"],
+      "dificult": "fácil",
+      "category": "animais"
+    },
+    {
+      "word": "HOSPITAL",
+      "cannot": ["médico", "doente", "enfermeira", "leito", "tratamento"],
+      "dificult": "médio",
+      "category": "lugares"
+    },
+    {
+      "word": "HAMBÚRGUER",
+      "cannot": ["pão", "carne", "queijo", "fast-food", "lanche"],
+      "dificult": "fácil",
+      "category": "comidas/bebidas"
+    },
+    {
+      "word": "CELULAR",
+      "cannot": ["telefone", "ligar", "aplicativo", "WhatsApp", "tela"],
+      "dificult": "fácil",
+      "category": "tecnologia"
+    },
+    {
+      "word": "DANÇAR",
+      "cannot": ["música", "ritmo", "movimento", "festa", "pista"],
+      "dificult": "fácil",
+      "category": "ações"
+    },
+    {
+      "word": "CINEMA",
+      "cannot": ["filme", "pipoca", "tela", "sessão", "ingresso"],
+      "dificult": "fácil",
+      "category": "entretenimento"
+    },
+    {
+      "word": "MONTANHA",
+      "cannot": ["alto", "pico", "subir", "pedra", "escalada"],
+      "dificult": "médio",
+      "category": "natureza"
+    },
+    {
+      "word": "SORVETE",
+      "cannot": ["gelado", "doce", "sabor", "casquinha", "cremoso"],
+      "dificult": "fácil",
+      "category": "comidas/bebidas"
+    },
+    {
+      "word": "AVIÃO",
+      "cannot": ["voar", "asa", "piloto", "aeroporto", "céu"],
+      "dificult": "fácil",
+      "category": "objetos"
+    },
+    {
+      "word": "BOMBEIRO",
+      "cannot": ["fogo", "mangueira", "incêndio", "salvar", "caminhão"],
+      "dificult": "médio",
+      "category": "profissões"
+    },
+    {
+      "word": "VIOLÃO",
+      "cannot": ["corda", "tocar", "música", "instrumento", "dedos"],
+      "dificult": "médio",
+      "category": "objetos"
+    },
+    {
+      "word": "LEÃO",
+      "cannot": ["rugir", "juba", "rei", "savana", "felino"],
+      "dificult": "médio",
+      "category": "animais"
+    },
+    {
+      "word": "COZINHAR",
+      "cannot": ["comida", "panela", "fogão", "receita", "preparar"],
+      "dificult": "fácil",
+      "category": "ações"
+    },
+    {
+      "word": "BASQUETE",
+      "cannot": ["cesta", "bola", "NBA", "quadra", "arremesso"],
+      "dificult": "médio",
+      "category": "esportes"
+    },
+    {
+      "word": "RIO",
+      "cannot": ["água", "corrente", "peixe", "ponte", "margem"],
+      "dificult": "fácil",
+      "category": "natureza"
+    },
+    {
+      "word": "PADEIRO",
+      "cannot": ["pão", "forno", "padaria", "farinha", "assar"],
+      "dificult": "médio",
+      "category": "profissões"
+    },
+    {
+      "word": "CHOCOLATE",
+      "cannot": ["doce", "cacau", "barra", "marrom", "derreter"],
+      "dificult": "fácil",
+      "category": "comidas/bebidas"
+    },
+    {
+      "word": "ÓCULOS",
+      "cannot": ["lente", "vista", "enxergar", "grau", "armação"],
+      "dificult": "médio",
+      "category": "objetos"
+    },
+    {
+      "word": "CARNAVAL",
+      "cannot": ["fantasia", "samba", "bloco", "folia", "desfile"],
+      "dificult": "médio",
+      "category": "entretenimento"
+    },
+    {
+      "word": "CHUVA",
+      "cannot": ["água", "gotas", "nuvem", "molhar", "guarda-chuva"],
+      "dificult": "fácil",
+      "category": "natureza"
+    },
+    {
+      "word": "PULAR",
+      "cannot": ["saltar", "alto", "pernas", "impulso", "pulo"],
+      "dificult": "fácil",
+      "category": "ações"
+    },
+    {
+      "word": "NATAÇÃO",
+      "cannot": ["água", "piscina", "nadar", "raia", "crawl"],
+      "dificult": "médio",
+      "category": "esportes"
+    },
+    {
+      "word": "NOTEBOOK",
+      "cannot": ["computador", "portátil", "teclado", "tela", "laptop"],
+      "dificult": "médio",
+      "category": "tecnologia"
+    },
+    {
+      "word": "IGREJA",
+      "cannot": ["religião", "missa", "padre", "cruz", "altar"],
+      "dificult": "médio",
+      "category": "lugares"
+    },
+    {
+      "word": "BOLO",
+      "cannot": ["doce", "aniversário", "fatia", "forno", "massa"],
+      "dificult": "fácil",
+      "category": "comidas/bebidas"
+    },
+    {
+      "word": "BORBOLETA",
+      "cannot": ["asas", "voar", "lagarta", "inseto", "colorida"],
+      "dificult": "médio",
+      "category": "animais"
+    },
+    {
+      "word": "LIVRO",
+      "cannot": ["ler", "página", "história", "autor", "texto"],
+      "dificult": "fácil",
+      "category": "objetos"
+    },
+    {
+      "word": "CANTAR",
+      "cannot": ["música", "voz", "melodia", "canção", "letra"],
+      "dificult": "fácil",
+      "category": "ações"
+    },
+    {
+      "word": "DENTISTA",
+      "cannot": ["dente", "cárie", "consultório", "broca", "tratamento"],
+      "dificult": "médio",
+      "category": "profissões"
+    },
+    {
+      "word": "TÊNIS",
+      "cannot": ["raquete", "bola", "quadra", "saque", "jogo"],
+      "dificult": "médio",
+      "category": "esportes"
+    },
+    {
+      "word": "FLORESTA",
+      "cannot": ["árvore", "mata", "verde", "natureza", "animal"],
+      "dificult": "médio",
+      "category": "natureza"
+    },
+    {
+      "word": "SUCO",
+      "cannot": ["fruta", "bebida", "copo", "líquido", "vitamina"],
+      "dificult": "fácil",
+      "category": "comidas/bebidas"
+    },
+    {
+      "word": "RELÓGIO",
+      "cannot": ["hora", "ponteiro", "tempo", "pulso", "minuto"],
+      "dificult": "médio",
+      "category": "objetos"
+    },
+    {
+      "word": "PARQUE",
+      "cannot": ["brinquedo", "diversão", "crianças", "árvore", "banco"],
+      "dificult": "fácil",
+      "category": "lugares"
+    },
+    {
+      "word": "MACACO",
+      "cannot": ["banana", "árvore", "rabo", "primata", "floresta"],
+      "dificult": "fácil",
+      "category": "animais"
+    },
+    {
+      "word": "DORMIR",
+      "cannot": ["cama", "sono", "noite", "descansar", "sonho"],
+      "dificult": "fácil",
+      "category": "ações"
+    },
+    {
+      "word": "VOLEIBOL",
+      "cannot": ["bola", "rede", "saque", "quadra", "jogo"],
+      "dificult": "médio",
+      "category": "esportes"
+    },
+    {
+      "word": "INTERNET",
+      "cannot": ["rede", "site", "navegar", "conexão", "WiFi"],
+      "dificult": "médio",
+      "category": "tecnologia"
+    },
+    {
+      "word": "MUSEU",
+      "cannot": ["arte", "exposição", "quadro", "cultura", "visitar"],
+      "dificult": "médio",
+      "category": "lugares"
+    },
+    {
+      "word": "ARROZ",
+      "cannot": ["grão", "branco", "feijão", "cozinhar", "comida"],
+      "dificult": "fácil",
+      "category": "comidas/bebidas"
+    },
+    {
+      "word": "CADEIRA",
+      "cannot": ["sentar", "mesa", "perna", "assento", "móvel"],
+      "dificult": "fácil",
+      "category": "objetos"
+    },
+    {
+      "word": "PEIXE",
+      "cannot": ["água", "nadar", "escama", "rio", "aquário"],
+      "dificult": "fácil",
+      "category": "animais"
+    },
+    {
+      "word": "ESCREVER",
+      "cannot": ["texto", "caneta", "papel", "letra", "redação"],
+      "dificult": "fácil",
+      "category": "ações"
+    },
+    {
+      "word": "POLICIAL",
+      "cannot": ["lei", "crime", "farda", "delegacia", "prender"],
+      "dificult": "médio",
+      "category": "profissões"
+    },
+    {
+      "word": "BOXE",
+      "cannot": ["luva", "soco", "ringue", "luta", "nocaute"],
+      "dificult": "médio",
+      "category": "esportes"
+    },
+    {
+      "word": "SOL",
+      "cannot": ["luz", "calor", "dia", "brilhar", "estrela"],
+      "dificult": "fácil",
+      "category": "natureza"
+    },
+    {
+      "word": "MACARRÃO",
+      "cannot": ["massa", "molho", "italiano", "espaguete", "garfo"],
+      "dificult": "fácil",
+      "category": "comidas/bebidas"
+    },
+    {
+      "word": "ESPELHO",
+      "cannot": ["reflexo", "imagem", "vidro", "olhar", "banheiro"],
+      "dificult": "médio",
+      "category": "objetos"
+    },
+    {
+      "word": "TEATRO",
+      "cannot": ["peça", "ator", "palco", "plateia", "apresentação"],
+      "dificult": "médio",
+      "category": "entretenimento"
+    },
+    {
+      "word": "COBRA",
+      "cannot": ["veneno", "réptil", "rasteja", "picada", "língua"],
+      "dificult": "médio",
+      "category": "animais"
+    },
+    {
+      "word": "CORRER",
+      "cannot": ["rápido", "pernas", "velocidade", "corrida", "maratona"],
+      "dificult": "fácil",
+      "category": "ações"
+    },
+    {
+      "word": "GOLFE",
+      "cannot": ["taco", "bola", "buraco", "campo", "verde"],
+      "dificult": "difícil",
+      "category": "esportes"
+    },
+    {
+      "word": "MOUSE",
+      "cannot": ["computador", "clicar", "cursor", "botão", "scroll"],
+      "dificult": "fácil",
+      "category": "tecnologia"
+    },
+    {
+      "word": "PRÉDIO",
+      "cannot": ["andar", "apartamento", "alto", "elevador", "construção"],
+      "dificult": "fácil",
+      "category": "lugares"
+    },
+    {
+      "word": "PÃO",
+      "cannot": ["farinha", "padaria", "forno", "manteiga", "francês"],
+      "dificult": "fácil",
+      "category": "comidas/bebidas"
+    },
+    {
+      "word": "MALA",
+      "cannot": ["viagem", "roupa", "bagagem", "carregar", "aeroporto"],
+      "dificult": "médio",
+      "category": "objetos"
+    },
+    {
+      "word": "CAVALO",
+      "cannot": ["galope", "cavalgar", "crina", "fazenda", "animal"],
+      "dificult": "fácil",
+      "category": "animais"
+    },
+    {
+      "word": "PINTAR",
+      "cannot": ["tinta", "pincel", "quadro", "cor", "parede"],
+      "dificult": "fácil",
+      "category": "ações"
+    },
+    {
+      "word": "ENGENHEIRO",
+      "cannot": ["obra", "construir", "projeto", "cálculo", "capacete"],
+      "dificult": "médio",
+      "category": "profissões"
+    },
+    {
+      "word": "SURF",
+      "cannot": ["prancha", "onda", "mar", "equilíbrio", "praia"],
+      "dificult": "médio",
+      "category": "esportes"
+    },
+    {
+      "word": "LUA",
+      "cannot": ["noite", "estrela", "céu", "brilhar", "cheia"],
+      "dificult": "fácil",
+      "category": "natureza"
+    },
+    {
+      "word": "OVO",
+      "cannot": ["galinha", "gema", "clara", "casca", "frito"],
+      "dificult": "fácil",
+      "category": "comidas/bebidas"
+    },
+    {
+      "word": "PANELA",
+      "cannot": ["cozinhar", "tampa", "fogão", "comida", "metal"],
+      "dificult": "fácil",
+      "category": "objetos"
+    },
+    {
+      "word": "SHOW",
+      "cannot": ["música", "cantor", "palco", "apresentação", "público"],
+      "dificult": "fácil",
+      "category": "entretenimento"
+    },
+    {
+      "word": "TUBARÃO",
+      "cannot": ["dente", "mar", "perigoso", "nadadeira", "peixe"],
+      "dificult": "médio",
+      "category": "animais"
+    },
+    {
+      "word": "ABRAÇAR",
+      "cannot": ["carinho", "braços", "aperto", "amor", "aconchego"],
+      "dificult": "médio",
+      "category": "ações"
+    },
+    {
+      "word": "FÓRMULA 1",
+      "cannot": ["carro", "corrida", "velocidade", "piloto", "pista"],
+      "dificult": "médio",
+      "category": "esportes"
+    },
+    {
+      "word": "TABLET",
+      "cannot": ["tela", "touch", "iPad", "aplicativo", "portátil"],
+      "dificult": "médio",
+      "category": "tecnologia"
+    },
+    {
+      "word": "SHOPPING",
+      "cannot": ["loja", "compra", "corredor", "vitrine", "mall"],
+      "dificult": "fácil",
+      "category": "lugares"
+    },
+    {
+      "word": "CACHORRO-QUENTE",
+      "cannot": ["salsicha", "pão", "mostarda", "ketchup", "lanche"],
+      "dificult": "médio",
+      "category": "comidas/bebidas"
+    },
+    {
+      "word": "GUARDA-CHUVA",
+      "cannot": ["chuva", "molhar", "abrir", "proteção", "água"],
+      "dificult": "médio",
+      "category": "objetos"
+    },
+    {
+      "word": "TARTARUGA",
+      "cannot": ["casco", "lenta", "réptil", "praia", "mar"],
+      "dificult": "médio",
+      "category": "animais"
+    },
+    {
+      "word": "BEIJAR",
+      "cannot": ["beijo", "boca", "lábio", "amor", "carinho"],
+      "dificult": "médio",
+      "category": "ações"
+    },
+    {
+      "word": "ADVOGADO",
+      "cannot": ["lei", "processo", "tribunal", "juiz", "defender"],
+      "dificult": "médio",
+      "category": "profissões"
+    },
+    {
+      "word": "SKATE",
+      "cannot": ["rodinha", "prancha", "manobra", "andar", "rampa"],
+      "dificult": "médio",
+      "category": "esportes"
+    },
+    {
+      "word": "VENTO",
+      "cannot": ["ar", "soprar", "brisa", "ventania", "folha"],
+      "dificult": "médio",
+      "category": "natureza"
+    },
+    {
+      "word": "CHURRASCO",
+      "cannot": ["carne", "grelha", "assado", "espeto", "sal"],
+      "dificult": "fácil",
+      "category": "comidas/bebidas"
+    },
+    {
+      "word": "SOFÁ",
+      "cannot": ["sentar", "sala", "almofada", "conforto", "móvel"],
+      "dificult": "fácil",
+      "category": "objetos"
+    },
+    {
+      "word": "SHOW DE TALENTOS",
+      "cannot": ["palco", "competição", "cantar", "apresentar", "juiz"],
+      "dificult": "difícil",
+      "category": "entretenimento"
+    },
+    {
+      "word": "PINGUIM",
+      "cannot": ["gelo", "frio", "ave", "preto", "branco"],
+      "dificult": "médio",
+      "category": "animais"
+    },
+    {
+      "word": "GRITAR",
+      "cannot": ["alto", "voz", "berrar", "som", "grito"],
+      "dificult": "fácil",
+      "category": "ações"
+    },
+    {
+      "word": "RUGBY",
+      "cannot": ["bola", "oval", "tackle", "time", "campo"],
+      "dificult": "difícil",
+      "category": "esportes"
+    },
+    {
+      "word": "VIDEOGAME",
+      "cannot": ["jogar", "controle", "jogo", "console", "tela"],
+      "dificult": "fácil",
+      "category": "tecnologia"
+    },
+    {
+      "word": "BIBLIOTECA",
+      "cannot": ["livro", "ler", "silêncio", "estante", "estudar"],
+      "dificult": "médio",
+      "category": "lugares"
+    },
+    {
+      "word": "SALADA",
+      "cannot": ["alface", "tomate", "verde", "verdura", "saudável"],
+      "dificult": "fácil",
+      "category": "comidas/bebidas"
+    },
+    {
+      "word": "ESCADA",
+      "cannot": ["subir", "degrau", "andar", "descer", "altura"],
+      "dificult": "fácil",
+      "category": "objetos"
+    },
+    {
+      "word": "COELHO",
+      "cannot": ["cenoura", "orelha", "pular", "fofo", "roedor"],
+      "dificult": "fácil",
+      "category": "animais"
+    },
+    {
+      "word": "ATIRAR",
+      "cannot": ["arma", "tiro", "alvo", "bala", "disparar"],
+      "dificult": "médio",
+      "category": "ações"
+    },
+    {
+      "word": "JORNALISTA",
+      "cannot": ["notícia", "reportagem", "entrevista", "jornal", "televisão"],
+      "dificult": "médio",
+      "category": "profissões"
+    },
+    {
+      "word": "ATLETISMO",
+      "cannot": ["corrida", "pista", "salto", "velocidade", "olimpíadas"],
+      "dificult": "médio",
+      "category": "esportes"
+    },
+    {
+      "word": "NUVEM",
+      "cannot": ["céu", "branca", "chuva", "algodão", "flutuar"],
+      "dificult": "fácil",
+      "category": "natureza"
+    },
+    {
+      "word": "LASANHA",
+      "cannot": ["massa", "molho", "queijo", "camada", "italiana"],
+      "dificult": "médio",
+      "category": "comidas/bebidas"
+    },
+    {
+      "word": "FACA",
+      "cannot": ["cortar", "lâmina", "afiada", "cozinha", "metal"],
+      "dificult": "fácil",
+      "category": "objetos"
+    },
+    {
+      "word": "FESTA",
+      "cannot": ["aniversário", "comemoração", "música", "dançar", "alegria"],
+      "dificult": "fácil",
+      "category": "entretenimento"
+    },
+    {
+      "word": "GIRAFA",
+      "cannot": ["pescoço", "alto", "mancha", "África", "herbívoro"],
+      "dificult": "médio",
+      "category": "animais"
+    },
+    {
+      "word": "ESTUDAR",
+      "cannot": ["livro", "aprender", "escola", "prova", "caderno"],
+      "dificult": "fácil",
+      "category": "ações"
+    },
+    {
+      "word": "GINÁSTICA",
+      "cannot": ["flexível", "acrobacia", "salto", "aparelho", "olimpíadas"],
+      "dificult": "médio",
+      "category": "esportes"
+    },
+    {
+      "word": "IMPRESSORA",
+      "cannot": ["papel", "imprimir", "tinta", "documento", "folha"],
+      "dificult": "médio",
+      "category": "tecnologia"
+    },
+    {
+      "word": "SUPERMERCADO",
+      "cannot": ["compra", "carrinho", "produto", "caixa", "prateleira"],
+      "dificult": "fácil",
+      "category": "lugares"
+    },
+    {
+      "word": "PIPOCA",
+      "cannot": ["milho", "cinema", "estourar", "salgada", "doce"],
+      "dificult": "fácil",
+      "category": "comidas/bebidas"
+    },
+    {
+      "word": "CAMA",
+      "cannot": ["dormir", "colchão", "travesseiro", "lençol", "quarto"],
+      "dificult": "fácil",
+      "category": "objetos"
+    },
+    {
+      "word": "JACARÉ",
+      "cannot": ["dente", "réptil", "pântano", "água", "perigoso"],
+      "dificult": "médio",
+      "category": "animais"
+    },
+    {
+      "word": "CHORAR",
+      "cannot": ["lágrima", "triste", "olho", "emoção", "choro"],
+      "dificult": "fácil",
+      "category": "ações"
+    },
+    {
+      "word": "ARQUITETO",
+      "cannot": ["projeto", "planta", "construção", "desenho", "prédio"],
+      "dificult": "médio",
+      "category": "profissões"
+    },
+    {
+      "word": "HANDEBOL",
+      "cannot": ["bola", "gol", "quadra", "arremesso", "time"],
+      "dificult": "médio",
+      "category": "esportes"
+    },
+    {
+      "word": "ARCO-ÍRIS",
+      "cannot": ["cor", "chuva", "sol", "colorido", "céu"],
+      "dificult": "médio",
+      "category": "natureza"
+    },
+    {
+      "word": "BRIGADEIRO",
+      "cannot": ["doce", "chocolate", "festa", "leite", "condensado"],
+      "dificult": "fácil",
+      "category": "comidas/bebidas"
+    },
+    {
+      "word": "VASSOURA",
+      "cannot": ["varrer", "limpar", "chão", "cabo", "sujeira"],
+      "dificult": "fácil",
+      "category": "objetos"
+    },
+    {
+      "word": "PARQUE DE DIVERSÕES",
+      "cannot": ["brinquedo", "montanha-russa", "roda-gigante", "diversão", "ingresso"],
+      "dificult": "médio",
+      "category": "entretenimento"
+    },
+    {
+      "word": "ABELHA",
+      "cannot": ["mel", "ferroada", "colmeia", "voar", "inseto"],
+      "dificult": "médio",
+      "category": "animais"
+    },
+    {
+      "word": "PENSAR",
+      "cannot": ["ideia", "mente", "raciocinar", "cérebro", "reflexão"],
+      "dificult": "médio",
+      "category": "ações"
+    },
+    {
+      "word": "ESQUI",
+      "cannot": ["neve", "montanha", "frio", "descida", "bastão"],
+      "dificult": "difícil",
+      "category": "esportes"
+    },
+    {
+      "word": "DRONE",
+      "cannot": ["voar", "câmera", "controle", "hélice", "aéreo"],
+      "dificult": "médio",
+      "category": "tecnologia"
+    },
+    {
+      "word": "ESTÁDIO",
+      "cannot": ["jogo", "torcida", "futebol", "arquibancada", "campo"],
+      "dificult": "médio",
+      "category": "lugares"
+    },
+    {
+      "word": "TAPIOCA",
+      "cannot": ["goma", "recheio", "regional", "massa", "nordeste"],
+      "dificult": "médio",
+      "
