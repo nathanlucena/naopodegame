@@ -693,9 +693,6 @@
       "cannot": ["bateria", "celular", "tomada", "cabo", "carregar"],
       "dificult": "fácil",
       "category": "tecnologia"
-    }
-  ]
-}category": "tecnologia"
     },
     {
       "word": "MÉDICO",
@@ -1440,6 +1437,6 @@
       "cannot": ["goma", "recheio", "regional", "massa", "nordeste"],
       "dificult": "médio",
       "category": "comidas/bebidas"
-   }
-  ]
-}
+     }
+    ]
+  }
